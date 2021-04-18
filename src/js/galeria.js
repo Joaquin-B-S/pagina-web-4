@@ -43,7 +43,7 @@ function mostrarImagen(e) {
     cerrarImagen.classList.add("btn-cerrar");
 
     //funcionalidad
-    cerrarImagen.onclick = function() {
+    cerrarImagen.onclick = function () {
         overlay.remove();
         body.classList.remove('fijar-body');
     }
